@@ -1,0 +1,194 @@
+* , *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    border-bottom: 1px solid rgba(44,105,113,.2);
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 20%;
+}
+
+.nav{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav ul{
+    height: 30%;
+    width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav ul li{
+    list-style: none;
+}
+
+.nav ul li .imgF{
+    display: inline-block;
+    height: 15%;
+    width: 5%;
+}
+
+.nav ul li .imgF img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.nav button{
+    height: 60%;
+    width: 13%;
+    font-size: 1em;
+    word-spacing: 1px;
+    border: none;
+    background-color: red;
+    color: white;
+    letter-spacing: 2px;
+}
+
+/* ----------------------------------------> Main */
+
+.main{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content:space-between;
+}
+
+.containInfo{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.infoMain{
+    height: 60%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.infoMain .child{
+    font-size: 2em;
+    font-weight: 900;
+    word-spacing: 0.5px;
+}
+
+.infoMain .child span{
+    color: red;
+}
+
+.infoMain .child{
+    color: rgb(185, 185, 185);
+}
+
+.infoMain h1{
+    font-size: 3em;
+    font-weight: 900;
+    line-height: 1em;
+}
+.check{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.check img{
+    height: 3.5em;
+    width: 3em;
+}
+
+.check span{
+    margin-left: 1.5em;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.containImg{
+    height: 100%;
+    width: 55%;
+    background-color: purple;
+}
+
+.containImg img{
+    height: 100%;
+    width: 100%;
+}
+
+/* --------------------------------> primera section */
+
+.fSection{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(243, 243, 243);
+}
+
+.rilla{
+    font-size: 3em;
+    color: red;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    transform:scaleX(1.8);
+}
+
+.containerCards{
+    height: 70%;
+    width: 70%;
+}
+
+.imgCards{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* --------------------------> segunda section */
+
+/* .sSection{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.containInfoSSection{
+    width: 80%;
+    height: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+}
+.tituloSSection{
+    background-color: blanchedalmond;
+}
+.infoSS .tituloSSection .rilla{
+    font-size: 3em;
+    color: red;
+}
+
+.infoSS{
+    height: 60%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+} */
